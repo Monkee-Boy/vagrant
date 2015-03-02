@@ -3,6 +3,18 @@
 
 This is the default Monkee-Boy Vagrantfile. It uses the awesome [Vaprobash](https://github.com/fideloper/Vaprobash).
 
+## Usage
+
+* `git clone git@github.com:Monkee-Boy/vagrant.git && cd vagrant`
+* Modify line 108 in `Vagrantfile` to your root Sites directory. This will be the synced directory and the path to adding your vhosts.
+* `vagrant up`
+* Use `vagrant ssh` if you need to make any changes or to have further control.
+
+### Add Domain
+
+* `cd` to this git repo.
+* `vagrant ssh -c 'sudo vhost -s some-domain.com -d /vagrant/clientname/site'`
+
 ## The Dev Team
 
 Handcrafted with ♥ in Austin, Texas by the [Monkee-Boy Troop](http://www.monkee-boy.com/about/the-troop.php).
