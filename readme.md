@@ -13,7 +13,17 @@ This is the default Monkee-Boy Vagrantfile. It uses the awesome [Vaprobash](http
 ### Add Domain
 
 * `cd` to this git repo.
-* `vagrant ssh -c 'sudo vhost -s some-domain.com -d /vagrant/clientname/site'`
+* `vagrant ssh -c 'sudo vhost -s client-domain.dev -d /vagrant/clientname/site'`
+* Edit your hosts file with `192.168.22.10 client-domain.dev`.
+* http://client-domain.dev should now work.
+
+### MySQL Connection
+
+We recommend using [SequelPro](http://www.sequelpro.com/) for easy database management.
+
+* Host: `192.168.22.10`
+* User: `root`
+* Pass: `root`
 
 ## The Dev Team
 
