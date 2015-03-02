@@ -17,6 +17,12 @@ This is the default Monkee-Boy Vagrantfile. It uses the awesome [Vaprobash](http
 * Edit your hosts file with `192.168.22.10 client-domain.dev`.
 * http://client-domain.dev should now work.
 
+#### Quick Add
+
+* Edit `./vagrantvhost.sh` with your vagrant id. Get this by running `vagrant global-status`.
+* Setup `alias vagrantvhost="sh ~/Sites/mBoy/mboy-vagrant/vagrantvhost.sh"` as an alias. Modify the path to this repo.
+* Add new domain with `vagrantvhost client-domain.dev /vagrant/clientname/site`.
+
 ### MySQL Connection
 
 We recommend using [SequelPro](http://www.sequelpro.com/) for easy database management.
