@@ -21,8 +21,8 @@ This is the default Monkee-Boy Vagrantfile. It uses the awesome [Vaprobash](http
 #### Quick Add
 
 * Edit `./vagrantvhost.sh` with your vagrant id. Get this by running `vagrant global-status`.
-* Setup `alias vagrantvhost="sh ~/Sites/mBoy/mboy-vagrant/vagrantvhost.sh"` as an alias. Modify the path to this repo.
-* Add new domain with `vagrantvhost client-domain.dev /vagrant/clientname/site`.
+* Setup `alias vagrantvhost="sh ~/Sites/mBoy/mboy-vagrant/vagrantvhost.sh"` as an alias. Modify the path to this vagrant repo.
+* Add new domain with `vagrantvhost client-domain.dev /vagrant/clientname/site`. This will automatically include a server alias of www.
 
 ### MySQL Connection
 
