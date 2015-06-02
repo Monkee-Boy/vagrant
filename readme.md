@@ -13,7 +13,8 @@ This is the default Monkee-Boy Vagrantfile. It uses the awesome [Vaprobash](http
 ### Add Domain
 
 * `cd` to this git repo.
-* `vagrant ssh -c 'sudo vhost -s client-domain.dev -d /vagrant/clientname/site'`
+* `vagrant ssh -c 'sudo vhost -s client-domain.dev -a www.client-domain.dev -d /vagrant/clientname/site'`
+  * `-s` is the server name, `-a` is the server alias, `-d` is the document root.
 * Edit your hosts file with `192.168.22.10 client-domain.dev`.
 * http://client-domain.dev should now work.
 
