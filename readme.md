@@ -1,6 +1,8 @@
 ![Monkee-Boy](https://dujrsrsgsd3nh.cloudfront.net/img/emoticons/113009/mboy-1403710932.jpg) mBoy Vagrant
 ==============
 
+**This repo is dead. Do not use.**
+
 This is the default Monkee-Boy Vagrantfile. It was generated using [PuPHPet](https://puphpet.com). Ubuntu, Apache, PHP, MySQL, and Ruby versions match those found on Habitat.
 
 ## Usage
